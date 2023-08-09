@@ -11,4 +11,23 @@ $(".card").hover(function () {
     }
 );
 
+$(".i_menu").click(function (e) { 
+    e.preventDefault();  
+$(".fondo_oculto").addClass("desplazar");
+});
+
+$(".cerrar").click(function (e) { 
+    e.preventDefault();
+    $(".fondo_oculto").removeClass("desplazar");
+});
+
+
+
+
+
+
+
+
+
+
 });
