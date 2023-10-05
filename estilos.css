@@ -413,7 +413,13 @@ width: 90%;
 
 
 
-@media (max-width: 1024px){
+@media (max-width: 1424px){
+
+
+#fondo_principal{
+    height: 100%;
+    padding-bottom: 32px;
+}
 
 
 .cont_header nav a:not(:nth-last-child(-n+2)){
@@ -509,6 +515,8 @@ display: none;
     padding-bottom: 244px;
 }
 
+
+
 }
 
 
@@ -562,4 +570,6 @@ display: none;
     .cont_fondo_principal h1{
        font-size: 36px;
     }
+
+   
 }
